@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: ubuntu;
+    outline:none;
+}
+.Timeline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.TimelineItem{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+@media only screen and (max-width: 834px){
+    .TimelineItem{
+    width: 70%;
+    }
+}
+.dot{
+   right: 1.67rem;
+}
+.portfolio{
+    margin-bottom: 50px;
+}
+.contact{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
